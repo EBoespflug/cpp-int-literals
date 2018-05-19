@@ -17,12 +17,12 @@ The directive ```using namespace int_literals;``` import the literals from the c
 
 int main()
 {
-	using namespace int_literals;
+    using namespace int_literals;
 
     auto s   = 0_s;     // short
     auto us  = 0_us;    // unsigned short.
 
-	auto i1  = 0_i8;    // std::int8_t
+    auto i1  = 0_i8;    // std::int8_t
     auto i2  = 0_i16;   // std::int16_t
     auto i3  = 0_i32;   // std::int32_t
     auto i4  = 0_i64;   // std::int64_t
@@ -32,7 +32,7 @@ int main()
     auto i7  = 0_if32;  // std::int_fast32_t
     auto i8  = 0_if64;  // std::int_fast64_t
 
-	auto i9  = 0_il8;   // std::int8_t
+    auto i9  = 0_il8;   // std::int8_t
     auto i10 = 0_il16;  // std::int16_t
     auto i11 = 0_il32;  // std::int32_t
     auto i12 = 0_il64;  // std::int64_t
@@ -50,7 +50,7 @@ int main()
     auto u7  = 0_uf32;  // std::uint_fast32_t
     auto u8  = 0_uf64;  // std::uint_fast64_t
 
-	auto u9  = 0_ul8;   // std::uint_least8_t
+    auto u9  = 0_ul8;   // std::uint_least8_t
     auto u10 = 0_ul16;  // std::uint_least16_t
     auto u11 = 0_ul32;  // std::uint_least32_t
     auto u12 = 0_ul64;  // std::uint_least64_t
